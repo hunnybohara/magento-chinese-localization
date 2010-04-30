@@ -13,7 +13,7 @@
 修改C:\Windows\System32\drivers\etc\hosts文件，添加“127.0.0.1 magento.localhost.com”
 
 === 配置MySQL数据库 ===
-请从链接“ http://code.google.com/p/magento-chinese-localization/downloads/list ”下载最新版的开发环境数据库文件。并执行以下SQL语句
+请从链接 http://code.google.com/p/magento-chinese-localization/downloads/list 下载最新版的开发环境数据库文件。并执行以下SQL语句
 
 *请注意：这里你需要更改下载下来的sql文件路径*
 {{{
@@ -47,4 +47,4 @@ NameVirtualHost *:80
 重启Apache
 
 === 验证环境配置 ===
-访问“ http://magento.localhost.com ”， 如果看到网店首页的话就说明配置成功了。
+访问 http://magento.localhost.com ， 如果看到网店首页的话就说明配置成功了。
