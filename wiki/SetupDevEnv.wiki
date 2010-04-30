@@ -47,4 +47,4 @@ NameVirtualHost *:80
 重启Apache
 
 === 验证环境配置 ===
-访问 http://magento.localhost.com ， 如果看到网店首页的话就说明配置成功了。
+访问 http://magento.localhost.com ， 如果看到网店首页的话就说明配置成功了。访问后台的URL是 http://magento.localhost.com/admin ，用户名密码 “admin/admin1234”。
