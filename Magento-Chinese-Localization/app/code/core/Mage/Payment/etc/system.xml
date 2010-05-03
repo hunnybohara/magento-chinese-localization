@@ -36,6 +36,7 @@
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>
             <groups>
+            <!--
                 <ccsave translate="label">
                     <label>Saved CC</label>
                     <frontend_type>text</frontend_type>
@@ -264,6 +265,7 @@
                         </model>
                     </fields>
                 </checkmo>
+                -->
                 <free translate="label">
                     <label>Zero Subtotal Checkout</label>
                     <frontend_type>text</frontend_type>
@@ -356,6 +358,7 @@
                         </model>
                     </fields>
                 </free>
+                <!-- 
                 <purchaseorder translate="label">
                     <label>Purchase order</label>
                     <frontend_type>text</frontend_type>
@@ -437,6 +440,7 @@
                         </model>
                     </fields>
                 </purchaseorder>
+                -->
             </groups>
         </payment>
     </sections>

@@ -28,6 +28,7 @@
 <config>
     <sections>
         <carriers>
+        <!--  
             <groups>
                 <dhl translate="label" module="usa">
                     <label>DHL</label>
@@ -72,10 +73,12 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>0</show_in_store>
                         </contentdesc>
+                        -->
                         <!--
                         If the free_shipping_enable flag enable, the system will check free_shipping_subtotal to give free shipping
                         otherwise will use shopping cart price rule behaviour
                         -->
+                        <!--
                         <free_shipping_enable translate="label">
                             <label>Free shipping with minimum order amount</label>
                             <frontend_type>select</frontend_type>
@@ -1023,6 +1026,7 @@
                     </fields>
                 </usps>
             </groups>
+        -->
         </carriers>
     </sections>
 </config>

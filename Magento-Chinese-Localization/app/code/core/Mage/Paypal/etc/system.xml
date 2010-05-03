@@ -27,6 +27,7 @@
 -->
 <config>
    <sections>
+   <!--  
         <payment>
             <groups>
                 <paypal_direct translate="label comment" module="paypal">
@@ -344,6 +345,7 @@
                 </paypal_standard>
             </groups>
         </payment>
+   -->
         <paypal translate="label" module="paypal">
             <label>PayPal</label>
             <tab>sales</tab>

@@ -47,6 +47,7 @@
         <sales>
             <shipping>
                 <carriers>
+                <!--  
                     <ups>
                         <class>Mage_Usa_Model_Shipping_Carrier_Ups</class>
                     </ups>
@@ -59,6 +60,7 @@
                     <dhl>
                         <class>Mage_Usa_Model_Shipping_Carrier_Dhl</class>
                     </dhl>
+                -->
                 </carriers>
             </shipping>
             <tax>
@@ -95,6 +97,7 @@
 
     <default>
         <carriers>
+        <!--  
             <dhl>
                 <account></account>
                 <active>0</active>
@@ -187,6 +190,7 @@
                 <handling_type>F</handling_type>
                 <handling_action>O</handling_action>
             </usps>
+        -->
         </carriers>
     </default>
 </config>

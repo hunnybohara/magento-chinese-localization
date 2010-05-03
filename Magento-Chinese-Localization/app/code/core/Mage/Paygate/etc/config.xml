@@ -80,6 +80,7 @@
 
     <default>
         <payment>
+        <!--  
             <authorizenet>
                 <active>0</active>
                 <cctypes>AE,VI,MC,DI</cctypes>
@@ -119,6 +120,7 @@
                 <proxy_port/>
                 <use_proxy>0</use_proxy>
             </verisign>
+		-->
         </payment>
     </default>
 </config>
