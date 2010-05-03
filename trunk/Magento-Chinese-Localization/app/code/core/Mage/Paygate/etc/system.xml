@@ -29,6 +29,7 @@
    <sections>
         <payment>
             <groups>
+            <!-- 
                 <authorizenet translate="label" module="paygate">
                     <label>Authorize.net</label>
                     <frontend_type>text</frontend_type>
@@ -206,6 +207,7 @@
                         </model>
                     </fields>
                 </authorizenet>
+                
                 <verisign translate="label" module="paygate">
                     <label>Payflow Pro</label>
                     <frontend_type>text</frontend_type>
@@ -443,6 +445,7 @@
                         </max_order_total>
                     </fields>
                 </verisign>
+                -->
             </groups>
         </payment>
     </sections>
