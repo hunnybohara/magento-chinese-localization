@@ -802,11 +802,13 @@
 
     <default>
         <payment>
+        <!--  
             <googlecheckout>
                 <active>1</active>
                 <model>googlecheckout/payment</model>
                 <title>Google Checkout</title>
             </googlecheckout>
+        -->
         </payment>
 
         <sales>
