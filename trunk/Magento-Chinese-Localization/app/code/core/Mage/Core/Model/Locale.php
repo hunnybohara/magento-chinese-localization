@@ -267,8 +267,20 @@ class Mage_Core_Model_Locale
     {
         $options= array();
         $zones  = $this->getTranslationList('windowstotimezone');
-        ksort($zones);
-        foreach ($zones as $code=>$name) {
+        $allowed_zones = array(	'Asia/Shanghai', // China Standard Time
+        						'Etc/GMT+5', // US Eastern Standard Time
+        						'America/Chicago', // Central Standard Time
+        						'America/Phoenix', // US Mountain Standard Time
+        						'America/Los_Angeles'); // Pacific Standard Time
+        $new_zones = array();
+        foreach ($zones as $code=>$name){
+        	if (in_array($code, $allowed_zones)){
+        		$new_zones[$code] = $name;
+        	}
+        }
+        
+        ksort($new_zones);
+        foreach ($new_zones as $code=>$name) {
             $name = trim($name);
             $options[] = array(
                'label' => empty($name) ? $code : $name . ' (' . $code . ')',
@@ -391,6 +403,7 @@ class Mage_Core_Model_Locale
      */
     public function getAllowCurrencies()
     {
+		/**
         $data = array();
         if (Mage::isInstalled()) {
             $data = Mage::app()->getStore()->getConfig(self::XML_PATH_ALLOW_CURRENCIES_INSTALLED);
@@ -398,6 +411,9 @@ class Mage_Core_Model_Locale
         } else {
             $data = Mage::getSingleton('core/locale_config')->getAllowedCurrencies();
         }
+		**/
+		$data = Mage::getSingleton('core/locale_config')->getAllowedCurrencies();
+		
         return $data;
     }
 
