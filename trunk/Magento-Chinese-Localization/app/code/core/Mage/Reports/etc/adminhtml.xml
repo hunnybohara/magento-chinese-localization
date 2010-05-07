@@ -38,10 +38,12 @@
                             <title>Sales</title>
                             <action>adminhtml/report_sales/sales</action>
                         </sales>
+						<!--
                         <tax translate="title" module="reports">
                             <title>Tax</title>
                             <action>adminhtml/report_sales/tax</action>
                         </tax>
+						-->
                         <shipping translate="title" module="reports">
                             <title>Shipping</title>
                             <action>adminhtml/report_sales/shipping</action>
