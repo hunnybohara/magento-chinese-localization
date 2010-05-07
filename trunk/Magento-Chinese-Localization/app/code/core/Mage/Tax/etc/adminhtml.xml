@@ -27,6 +27,7 @@
 -->
 <config>
     <menu>
+	<!--
         <sales>
             <children>
                 <tax translate="title" module="tax">
@@ -57,6 +58,7 @@
                 </tax>
             </children>
         </sales>
+		-->
     </menu>
     <acl>
         <resources>
