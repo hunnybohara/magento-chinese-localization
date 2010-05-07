@@ -125,9 +125,15 @@
             </filesystem>
         </system>
         <general>
+			<!--
             <locale>
                 <code>en_US</code>
                 <timezone>America/Los_Angeles</timezone>
+            </locale>
+			-->
+			<locale>
+                <code>zh_CN</code>
+                <timezone>Asia/Shanghai</timezone>
             </locale>
         </general>
     </default>
