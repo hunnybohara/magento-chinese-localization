@@ -27,15 +27,14 @@
 -->
 <config>
     <sections>
-	<!--
         <tax translate="label" module="tax">
             <class>separator-top</class>
             <label>Tax</label>
             <tab>sales</tab>
             <sort_order>303</sort_order>
-            <show_in_default>1</show_in_default>
-            <show_in_website>1</show_in_website>
-            <show_in_store>1</show_in_store>
+            <show_in_default>0</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
             <groups>
                 <classes translate="label">
                     <label>Tax Classes</label>
@@ -229,7 +228,6 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </shipping>
-						-->
                         <!--<discount translate="label">
                             <label>Display Discount Amount</label>
                             <frontend_type>select</frontend_type>
@@ -239,7 +237,6 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </discount>-->
-						<!--
                         <grandtotal translate="label">
                             <label>Include Tax In Grand Total</label>
                             <frontend_type>select</frontend_type>
@@ -303,7 +300,6 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </shipping>
-						-->
                         <!--<discount translate="label">
                             <label>Display Discount Amount</label>
                             <frontend_type>select</frontend_type>
@@ -313,7 +309,6 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </discount>-->
-						<!--
                         <grandtotal translate="label">
                             <label>Include Tax In Grand Total</label>
                             <frontend_type>select</frontend_type>
@@ -345,6 +340,5 @@
                 </sales_display>
             </groups>
         </tax>
-		-->
     </sections>
 </config>
