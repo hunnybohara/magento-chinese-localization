@@ -122,6 +122,7 @@ class Mage_Install_Model_Installer_Config extends Mage_Install_Model_Installer_A
             ->setSecureBaseUrl($baseSecureUrl)
             ->setUnsecureBaseUrl($baseUrl)
             ->setAdminFrontname('admin')
+			->setUseRewrites(1)
         ;
         return $data;
     }
