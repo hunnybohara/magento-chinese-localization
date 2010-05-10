@@ -43,6 +43,7 @@ class Mage_Core_Model_Locale
      */
     const XML_PATH_DEFAULT_LOCALE   = 'general/locale/code';
     const XML_PATH_DEFAULT_TIMEZONE = 'general/locale/timezone';
+    const XML_PATH_DEFAULT_CURRENCY = 'general/locale/currency';
     const XML_PATH_DEFAULT_COUNTRY  = 'general/country/default';
     const XML_PATH_ALLOW_CODES      = 'global/locale/allow/codes';
     const XML_PATH_ALLOW_CURRENCIES = 'global/locale/allow/currencies';
@@ -144,7 +145,12 @@ class Mage_Core_Model_Locale
      */
     public function getTimezone()
     {
-        return self::DEFAULT_TIMEZONE;
+    	$timezone = Mage::getStoreConfig(self::XML_PATH_DEFAULT_TIMEZONE);
+    	if (!$timezone){
+    		$timezone = self::DEFAULT_TIMEZONE;
+    	}
+    	
+        return $timezone;
     }
 
     /**
@@ -154,7 +160,12 @@ class Mage_Core_Model_Locale
      */
     public function getCurrency()
     {
-        return self::DEFAULT_CURRENCY;
+    	$currency = Mage::getStoreConfig(self::XML_PATH_DEFAULT_CURRENCY);
+    	if (!$currency){
+    		$currency = self::DEFAULT_CURRENCY;
+    	}
+    	
+        return $currency;
     }
 
     /**
