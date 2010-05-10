@@ -134,6 +134,7 @@
 			<locale>
                 <code>zh_CN</code>
                 <timezone>Asia/Shanghai</timezone>
+                <currency>CNY</currency>
             </locale>
         </general>
     </default>
