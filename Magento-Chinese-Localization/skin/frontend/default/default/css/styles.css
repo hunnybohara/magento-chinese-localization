@@ -26,7 +26,7 @@
 /* Reset ================================================================================= */
 * { margin:0; padding:0; }
 
-body          { background:#496778 url(../images/bkg_body.gif) 50% 0 repeat-y; font:12px/1.55 Arial, Helvetica, sans-serif; color:#2f2f2f; text-align:center; }
+body          { background:#496778 url(../images/bkg_body.gif) 50% 0 repeat-y; font:13px/1.55 Arial, Helvetica, sans-serif; color:#2f2f2f; text-align:center; }
 
 img           { border:0; vertical-align:top; }
 
@@ -503,7 +503,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 .header .form-language select { padding:0; }
 .header .form-language select.flags option { background-position:4px 50%; background-repeat:no-repeat; padding-left:25px; }
 .header .links { float:right; margin:0 0 6px; }
-.header .links li { float:left; font-size:11px; background:url(../images/bkg_pipe1.gif) 100% 60% no-repeat; padding:0 8px 0 7px; }
+.header .links li { float:left; font-size:12px; background:url(../images/bkg_pipe1.gif) 100% 60% no-repeat; padding:0 8px 0 7px; }
 .header .links a { color:#ebbc58; }
 .header-container .top-container { clear:both; padding:5px 10px 0 12px; text-align:right; }
 .header-container .top-container a { font-size:11px; color:#ebbc58; }
@@ -586,7 +586,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 .block-compared,
 .block-related,
 .block-tags,
-.block-login { font-size:11px; line-height:1.25; }
+.block-login { font-size:12px; line-height:1.25; }
 .block-cart .block-title strong,
 .block-wishlist .block-title strong,
 .block-subscribe .block-title strong,
@@ -794,7 +794,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 .availability span { font-weight:bold; }
 .availability.in-stock span {}
 .availability.out-of-stock span { color:#d83820; }
-.product-view .product-shop .availability { font-size:11px; }
+.product-view .product-shop .availability { font-size:12px; }
 .product-view .product-shop .availability span { font-weight:normal; }
 
 /* Email to a Friend */
@@ -1024,7 +1024,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 .product-view .box-tags .form-add .input-box { float:left; width:305px; margin:0 5px 0 0; background:url(../images/i_tag_add.gif) 0 2px no-repeat; padding:0 0 0 23px; }
 .product-view .box-tags .form-add input.input-text { width:299px; }
 .product-view .box-tags .form-add button.button span { border-color:#406a83; background:#618499; }
-.product-view .box-tags .note { margin:3px 0 0; padding:0 0 0 23px; font-size:11px; }
+.product-view .box-tags .note { margin:3px 0 0; padding:0 0 0 23px; font-size:12px; }
 
 /* Block: Reviews */
 .product-view .box-reviews dl { margin:15px 0; }

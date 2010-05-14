@@ -36,7 +36,7 @@ a:hover       { text-decoration:none; }
 
 /* Headings */
 h1            { font-size:20px; font-weight:normal; line-height:1.15; }
-h2            { font-size:18px; font-weight:normal; line-height:1.25; }
+h2            { font-size:18px; font-weight:bold; line-height:1.25; }
 h3            { font-size:16px; font-weight:bold; line-height:1.25; }
 h4            { font-size:14px; font-weight:bold; }
 h5            { font-size:12px; font-weight:bold; }
@@ -260,7 +260,7 @@ p.control input.radio { margin-right:6px; }
 .validation-advice { clear:both; min-height:13px; margin:3px 0 0; padding-left:17px; font-size:10px; line-height:13px; background:url(../images/validation_advice_bg.gif) 2px 1px no-repeat; color:#f00; }
 .validation-failed { border:1px dashed #f00 !important; background:#faebe7 !important; }
 .validation-passed {}
-p.required { font-size:10px; text-align:right; color:#f00; }
+p.required { font-size:11px; text-align:right; color:#f00; }
 /* Expiration date and CVV number validation fix */
 .v-fix { float:left; }
 .v-fix .validation-advice { display:block; width:12em; margin-right:-12em; position:relative; }
@@ -291,7 +291,7 @@ p.required { font-size:10px; text-align:right; color:#f00; }
 /* Page Heading */
 .page-title { border-bottom:1px solid #ddd; padding:0 0 5px; margin:0 0 10px; }
 .page-title h1,
-.page-title h2 { font-size:18px; color:#000; }
+.page-title h2 { font-size:18px; color:#000; font-weight:bold;}
 .page-title .separator { margin:0 3px; }
 .page-title .link-rss { float:right; }
 .title-buttons { text-align:right; }
