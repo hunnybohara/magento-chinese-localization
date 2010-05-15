@@ -140,6 +140,10 @@ final class Mage
         $i = self::getVersionInfo();
         return trim("{$i['major']}.{$i['minor']}.{$i['revision']}.{$i['patch']}-{$i['stability']}{$i['number']}", '.-');
     }
+    
+    public static function getCNVersion(){
+    	return "1.0";
+    }
 
     /**
      * Gets the detailed Magento version information
