@@ -8,12 +8,12 @@ Windows系统或者Linux系统
 ===Web应用服务器===
 Apache （1.x或者2.x）
 PHP 5.2.0以上（不建议使用PHP 5.3或者更高版本），并包含以下PHP扩展
-* PDO/MySQL
-* MySQLi
-* mcrypt
-* mhash
-* simplexml
-* DOM
+  * PDO/MySQL
+  * MySQLi
+  * mcrypt
+  * mhash
+  * simplexml
+  * DOM
 
 ===数据库===
 MySQL 4.1.20以上，并使用InnoDB存储引擎
@@ -51,14 +51,14 @@ NameVirtualHost *:80
 请注意，这里我们使用文件目录“D:\Develop\Magento\Magento-Test\Magento1”作为该虚拟主机的根目录，你可以更改这个目录。本教程将使用该目录作为示例。
 
 ==安装步骤==
-# 下载Magento代码，并解压。把解压以后的文件拷贝到“D:\Develop\Magento\Magento-Test\Magento1”。拷贝完以后，你应该在目录“D:\Develop\Magento\Magento-Test\Magento1”下面看到以下目录“app, downloader, errors…”。
-# 如果你用的Linux系统，请保证以下目录对于Apache来说可写“app/etc , var , media”。建议将这些目录的权限改成777。
-# 访问http://magento1.localhost.com，你应该会看到安装界面。
-# 安装向导应该很容易懂，一路继续就可以了。在“配置”这一步的时候，记得选中“网址重写”。中文版的Magento默认应该已经选中该选项。还有就是在生产环境中，出于网站的安全考虑，我们建议修改管理路径，不要用默认的“admin”，可以修改为任意字符串，比如“webadmin”。那么修改以后，我们就得用http://magento1.localhost.com/webadmin来登录后台管理界面。
-# 点击继续，Magento会去建立数据表。该步骤需要较长时间，如果出现错误可以尝试刷新页面，如果多次刷新没有用那就把数据库删了重新来过。
-# 点击继续，输入管理员信息，密钥不需要填。
-# 点击继续，安装就完成了。
-# 自动生成的密钥不需要记录，可以在“app/etc/local.xml”文件中找到。
+  # 下载Magento代码，并解压。把解压以后的文件拷贝到“D:\Develop\Magento\Magento-Test\Magento1”。拷贝完以后，你应该在目录“D:\Develop\Magento\Magento-Test\Magento1”下面看到以下目录“app, downloader, errors…”。
+  # 如果你用的Linux系统，请保证以下目录对于Apache来说可写“app/etc , var , media”。建议将这些目录的权限改成777。
+  # 访问http://magento1.localhost.com，你应该会看到安装界面。
+  # 安装向导应该很容易懂，一路继续就可以了。在“配置”这一步的时候，记得选中“网址重写”。中文版的Magento默认应该已经选中该选项。还有就是在生产环境中，出于网站的安全考虑，我们建议修改管理路径，不要用默认的“admin”，可以修改为任意字符串，比如“webadmin”。那么修改以后，我们就得用http://magento1.localhost.com/webadmin来登录后台管理界面。
+  # 点击继续，Magento会去建立数据表。该步骤需要较长时间，如果出现错误可以尝试刷新页面，如果多次刷新没有用那就把数据库删了重新来过。
+  # 点击继续，输入管理员信息，密钥不需要填。
+  # 点击继续，安装就完成了。
+  # 自动生成的密钥不需要记录，可以在“app/etc/local.xml”文件中找到。
 
 ==后续设置==
 暂无
